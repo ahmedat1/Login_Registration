@@ -1,0 +1,41 @@
+.inscription {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #6cf0c1;
+  font-weight: bold;
+}
+.inscription-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+}
+td {
+  padding: 5px;
+}
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
